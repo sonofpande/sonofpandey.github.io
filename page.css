@@ -1,0 +1,668 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  box-sizing: border-box;
+}
+html,body{
+  
+  background-color: #000;
+}
+.banner{
+
+  width:100%;
+  height:100%;
+  background-image: linear-gradient(red);
+  background-position: center;
+  background-size: center;
+
+}
+.navbar{
+  width: 100%;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+
+}
+.logo{
+  width: 80px;
+  margin-top: -10px;
+
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  
+}
+.navbar   {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(249, 247, 247);
+  font-weight: 600;
+  padding: 15px;
+  background-color:rgb(8, 8, 8);
+  
+
+}
+.navbar li:hover{
+ 
+  color: rgb(10, 11, 11);
+  background-color: rgb(244, 247, 245);
+}
+.select{
+  color: white;
+  background-color:rgb(13, 13, 13);   
+
+}
+
+
+.text{
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding:30px;
+  text-align:center;
+  
+}
+
+
+.text button{
+  border: transparent;
+      border-radius: 12px;
+      
+}
+.img{
+  padding: 30px;
+width: 40%;
+  background-color: black;
+  
+  
+}
+
+.bigimg{
+  display: flex;
+  
+}
+
+.bigimg button{
+  font-size: 15px;
+  padding: 10px;
+  margin:1opx;
+  color: white;
+  background-color: rgb(243, 6, 6);
+}
+.bigimg button:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid red;
+  
+}
+
+.down{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.div1{
+  padding: 30px;
+}
+.First{
+  width: 33.33%;
+  font-size: 16px;
+  padding: 50px;
+  margin:-20px;
+  background-color: rgb(21, 22, 22);
+  color: white;
+  
+}
+.First h6{
+  color:rgb(213, 64, 64);
+
+}
+
+.Second{
+  width: 33.33%;
+  font-size: 16px;
+  padding: 30px;
+  margin: -20px;
+  background-color: rgb(232, 38, 38);
+  color: #fff
+}
+.Third h6{
+  color:rgb(213, 64, 64);
+  font-size: 16px;
+ 
+}
+
+button{
+  border: none;
+}
+
+
+.Third{
+  width: 33.33%;
+  font-size: 16px;
+  padding: 30px;
+  margin: -20px;
+  color: white;
+  background-color:rgb(21, 22, 22) ;
+}
+.Third h6:hover{
+  color: white;
+ 
+
+}
+
+.Third:hover{
+  
+  color: rgb(221, 99, 99);
+  background-color:rgb(37, 39, 39);
+
+}
+.Second:hover{
+  
+  color: rgb(225, 212, 212);
+  background-color:rgb(37, 39, 39);
+
+}
+.Second h6:hover{
+  color: rgb(225, 85, 85);
+}
+
+.First:hover{
+  
+  color: rgb(221, 99, 99);
+  background-color:rgb(37, 39, 39);
+
+}
+.Second i:hover{
+  font-size: 50px;
+  color: #e73939;
+}
+.Third i:hover{
+  font-size: 50px;
+  color:#141313 ;
+}
+.First i:hover{
+  font-size: 50px;
+  color: #141313;
+}
+.First h6:hover{
+  
+  color: white;
+ 
+
+}
+
+
+.fa-brands{
+  font-size: 20px;
+  margin: 10px;
+  
+}
+
+.fa-brands:hover{
+  color: rgb(44, 29, 143);
+}
+
+.client .ach{
+  display:flex;
+  justify-content: space-between;
+
+}
+
+
+.div2{
+  
+  align-items: center;
+  display: flex;
+  justify-content:space-evenly;
+  
+
+}
+
+
+.exp h1,p{
+  text-align: center;
+  margin: 20px;
+  
+}
+
+
+.Experiences h1:hover{
+  
+  background-color: #1a1919;
+
+}
+
+.ach{
+  background-color: #2b2929;
+  align-items: center;
+
+}
+.client{
+  background-color:#2b2a2a ;
+  height:100px;
+  width: 33.33%;
+  text-align: center;
+}
+.client:hover{
+  background-color: #1a1919;
+}
+
+.zero{
+  display: flex;
+  background-color: #2b2929;
+}
+
+
+.project{
+  display: flex;
+  justify-content:space-between;
+  color: #fff;
+  background-color: #2b2929;
+}
+.pro{
+  padding: 30px;
+
+}
+.project button{
+  color: white;
+  background-color: rgb(235, 31, 31);
+  margin: 30px; 
+  font-size: 20px; 
+  border-radius: 10px;
+  padding: 12px;
+}
+button:hover{
+  background-color: white;
+  color: #000;
+}
+.div3{
+
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  object-fit: cover;
+  background-color: brown;
+
+}
+.div4 {
+  width: 100%;
+
+  padding: 30px;
+  margin: 30px;
+  overflow: hidden;
+  object-fit: cover;
+  background-color: #2b2929;
+}
+.div5 {
+  width: 50%;
+  height: 400px;
+  margin: 30px;
+  padding: 70px;
+  background-color: #2b2929;
+  object-fit: cover;
+
+}
+.div6{
+  display: flex;
+  justify-content: space-between;
+}
+.div5:hover{
+  background-color: #232222;
+}
+.div5 h6{
+  color: red;
+}
+.div5,h6:hover{
+  color: aliceblue;
+}
+
+
+
+.div7{
+  width: 50%;
+  height: 400px;
+  margin: 30px;
+  overflow: hidden;
+  object-fit: cover;
+  background-color: #2b2929;
+}
+.div8 {
+  
+  width: 50%;
+  height: 400px;
+  margin: 30px;
+  background-color: #2b2929;
+}
+.div9{
+  display: flex;
+  justify-content: space-between;
+}
+.op h3{
+   color: #fff;
+}
+.opp{
+ background-color: #2b2929;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+padding: 30px;
+
+}
+.oppp{
+  background-color: #2b2929;
+}
+.opp button{
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 10px;
+  color: #fff;
+  background-color:rgb(236, 37, 37) ;
+}
+button:hover{
+  background-color: white;
+  color: black;
+}
+
+
+.banner2{
+  width:100%;
+  height:100%;
+  background-image: linear-gradient(red);
+  background-position: center;
+  background-size: center;
+
+}
+.navbar2{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar2 h5:hover{
+  font-size: 20px;
+  color: rgb(225, 61, 61);
+  
+}
+
+.navbar2 h3{
+  width: 100%;
+
+}
+.navbar2 ul li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar2   {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(249, 247, 247);
+  font-weight: 00;
+  background-color:rgb(8, 8, 8);
+
+}
+.navbar2 a{
+  color: white;
+}
+
+
+
+.bar3 ul li{
+  list-style: none;
+  display: inline-block;
+ 
+  
+}
+.bar3  {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(249, 247, 247);
+  background-color:rgb(52, 49, 49);
+
+}
+
+
+.div5 img{
+  width: 100%;
+  height: 100%;
+}
+.hobby,.hobby2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.ho{
+  background-color: #ab5a5a;
+  margin: 30px;
+  padding: 30px;
+}
+.bby{
+  background-color:#ab5a5a;
+  margin: 30px;
+  padding: 30px;
+}
+
+.ho:hover,.bby:hover{
+  background-color: rgb(24, 23, 23);
+  
+}
+.MY h1{
+  font-size: 50px;
+  text-align: center;
+  color: rgb(248, 243, 243);
+
+}
+.MY h1:hover{
+  color: rgb(243, 10, 10);
+  
+}
+
+
+ 
+@media only screen and (max-width:767px) {
+  button,
+  a,button a{
+    font-size: 16px;
+    cursor: pointer;
+  }
+  body{
+    width: 100%;
+    height: auto;
+  }
+
+  p{
+    font-size: 16px;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    line-height: 40px;
+  
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 26px;
+  }
+
+  h3{
+    font-size: 21px;
+  }
+
+  h5{
+    font-size: 16px;
+  }
+
+  h6{
+    font-size: 11px;
+  }
+  p{
+    font-size: 16px;
+  }
+  header{
+    overflow: auto;
+  }
+  .opp,.project,.client,.Experiences,
+  .First,.Second,.Third,.text,.MY article{
+    padding: 10px;
+    
+  }
+  .opp,.project,.div5,.client,.Experiences,
+  .First,.Second,.Third,.text,footer div{
+    width: 100%;
+    
+  }
+
+  .div2, .Experiences, .exp,.client article{
+      
+    width:63px;
+    
+  }
+  .banner,.navbar ul{
+    padding:0px;
+    margin: 0px;
+  }
+  
+.bigimg.img,
+.bigimg.text,
+footer div{
+  width: 100%;
+}
+
+
+  .First,.Second,.Third,.div2,.project,.opp,.MY,.ho{
+    height: auto;
+    width: 100%;
+    overflow:auto;
+    padding: 20px;
+    
+  }
+.navbar ul li{
+  font-size: 12px;
+
+}
+
+
+
+.navbar2 h5{
+  font-size: 12px;
+}
+
+.navbar2 h5:hover{
+  font-size: 15px;
+}
+
+
+  .bigimg,.img,.text,.project,.opp{
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+  }
+  .opp{
+    display:block;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .down{
+    display: block;
+    width: 100%;
+    padding:30px;
+    margin: 30px;
+  }
+  
+.navbar{
+  display: block;
+  font-size:xx-small;
+  
+}
+.div2{
+  display: block;
+  font-size:xx-small;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+.div6{
+  display:block;
+  font-size:xx-small;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  
+}
+.div5{
+  margin: 0px;
+}
+.body{
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+.fa-brands{
+  font-size:20px;
+}
+
+
+
+  .text,.buttton button{
+    min-width: 7rem;
+  }
+  .text p{
+   font-size:auto;
+  }
+
+  footer div{
+    text-align: center;
+  }
+
+.div2, .Experiences, .exp, .client article {
+  width: auto;
+}
+
+.client {
+  width: auto;
+  margin: 15px;
+}
+
+.div2  {
+  width: auto;
+  margin: 15px;
+}
+}
+  @media only screen and (max-width:990px) {
+    h1{
+font-size: 42px;
+    }
+    h2{
+      font-size: 36px;
+    }
+    h3{
+      font-size: 32px;
+    }
+    h4{
+      font-size: 26px;
+    }
+    h5{
+      font-size: 20px;
+    }
+    h6{
+      font-size: 14px;
+    }
+  }
+
